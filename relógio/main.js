@@ -12,3 +12,5 @@ function relogio(){
     aminutos.innerHTML = minutos;
     asegundos.innerHTML = segundos;
 }
+
+setInterval(relogio, 500)
