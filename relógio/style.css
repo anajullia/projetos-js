@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+.body{
+    background-color: #e8f0c3;
+}
+
+.caixarelogio{
+    width: 60vw;
+    height: 30vh;
+    background-color: #ef8844;
+    margin-left: 19%;
+    margin-top: 15%;
+    border-radius: 40px;
+    filter: drop-shadow(0 0 1rem #f25d07);
+    align-items: center;
+}
+
+/* classe de debug kkkkkkkkkkkkkkk 😎 */
+
+.debug{
+    border: 0px solid red;
+}
+.itemrelogio{
+    float: left;
+    margin-left: 11.40%;
+    margin-top: 8.7%;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.caixaitens{
+    background-color: #f25d07 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
